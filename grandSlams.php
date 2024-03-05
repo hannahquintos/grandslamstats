@@ -41,10 +41,10 @@
                                             // logic to add attribution if required to images used
                                             if($grandSlam['imageTitle'] != null && $grandSlam['imageAlt'] != null && $grandSlam['attributionLink'] != null){
                                                 echo '<a title="'. $grandSlam['imageTitle']  .'" href="'. $grandSlam['attributionLink'] .'">
-                                                <img src="'.$grandSlam['imageURL'].'" style="height: 100%;" class="img-fluid rounded-start" alt="'. $grandSlam['imageURL'] .'">
+                                                <img src="'.$grandSlam['imageURL'].'" style="height: 340px;" class="img-fluid rounded-start" alt="'. $grandSlam['imageURL'] .'">
                                                 </a>';
                                             } else{
-                                                echo '<img src="'.$grandSlam['imageURL'].'" style="height: 100%;" class="img-fluid rounded-start" alt="Grand Slam Image">';
+                                                echo '<img src="'.$grandSlam['imageURL'].'" style="height: 340px;" class="img-fluid rounded-start" alt="Grand Slam Image">';
                                             }
 
                                 echo '</div>

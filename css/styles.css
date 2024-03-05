@@ -107,6 +107,7 @@ h1, h2{
     display: flex;
     gap: 5em;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #playersContainer{
